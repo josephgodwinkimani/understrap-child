@@ -25,3 +25,5 @@ To work and compile your Sass files on the fly start:
 - Run: `$ gulp watch-all`
 
 To run with  Browser-Sync - Follow the instructions [https://github.com/holger1411/understrap-child/blob/master/README.md](here.)
+
+# WARNING! All the images used in theme are property of Norco Bicycles they are used for demonstrations only. 
