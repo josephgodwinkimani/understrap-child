@@ -1,0 +1,60 @@
+//  #1 - Shamelessly inspired by CSS Guidelines <https://sass-guidelin.es/#syntax--formatting>
+//
+//  two (2) spaces indents, no tabs;
+//  ideally, 80-characters wide lines;
+// properly written multi-line CSS rules;
+//  meaningful use of whitespace.
+// 
+// #2 - Commenting
+//
+//  Ideally, any CSS ruleset should be preceded by a C-style comment explaining the point of the CSS block.
+//
+
+// Color changes
+a.text-secondary {
+  &:focus, &:hover {
+    color: $white !important;
+  }
+}
+
+.navbar-toggler-icon {
+  background-color: $white !important; //due to sht opinion
+}
+
+// Strip ul of list styling & padding - for footer menu
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+ }
+
+ // Sticky footer
+ #wrapper-footer {
+ 	padding-top: 60px;
+ 	background-color: #e3f2fd !important;
+ }
+
+// Add custom woocommerce CSS if you prefer it theme specific
+.single-product .product .single_add_to_cart_button.button{
+	background-color: $blue;
+	color: $white; 
+	}
+
+.single-product .product .single_add_to_cart_button.button{
+	&:focus, &:hover {
+	background-color: $dark;
+	color: $white;
+	}
+}
+
+.woocommerce .product .add_to_cart_button.button{
+	background-color: $blue;
+	color: $white; 
+}
+
+.woocommerce .product .add_to_cart_button.button{
+	&:focus, &:hover {
+	background-color: $dark;
+	color: $white;
+	}
+}
