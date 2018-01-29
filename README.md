@@ -1,3 +1,8 @@
+
+![alt text](https://raw.githubusercontent.com/godwincorsa/understrap-child/master/screenshot.png "Understrap Child by Godwin Corsa Solutions")
+
+
+
 # understrap-child
 
 Custom styling developed with NPM, Gulp, and SASS
