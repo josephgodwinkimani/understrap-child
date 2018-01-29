@@ -9,7 +9,7 @@ Custom styling developed with NPM, Gulp, and SASS
 
 ## Installation
 
-Follow the instructions [https://github.com/holger1411/understrap-child/blob/master/README.md](here.)
+Follow the instructions [here.](https://github.com/holger1411/understrap-child/blob/master/README.md)
 
 ### Customizing with SASS
 
@@ -24,6 +24,10 @@ To work and compile your Sass files on the fly start:
 
 - Run: `$ gulp watch-all`
 
-To run with  Browser-Sync - Follow the instructions [https://github.com/holger1411/understrap-child/blob/master/README.md](here.)
+To run with  Browser-Sync - Follow the instructions [here.](https://github.com/holger1411/understrap-child/blob/master/README.md)
+
+## Coding Standards
+
+This project adheres to WordPress PHP and CSS coding standards, and [Saas Guidelines by Hugo Giraudel.](https://sass-guidelin.es)
 
 # WARNING! All the images used in theme are property of Norco Bicycles they are used for demonstrations only. 
